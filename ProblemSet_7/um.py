@@ -5,6 +5,7 @@ def main():
 
 
 def count(s):
+    # \b means to check that specific character/word, it acts like a boundary
     match =  re.findall(r"\bum\b", s, re.IGNORECASE)
     return len(match)
 
