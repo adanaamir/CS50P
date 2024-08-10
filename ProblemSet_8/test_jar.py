@@ -47,14 +47,3 @@ def test_size():
     jar.withdraw(2)
     assert jar.size == 3
     assert jar.capacity == 12
-
-# def test_valerror():
-#     jar = Jar()
-#     with pytest.raises(ValueError):
-#         jar.deposit(13)
-
-#     with pytest.raises(ValueError):
-#         jar.withdraw(10)
-
-#     with pytest.raises(ValueError):
-#         jar.deposit(-1) 
